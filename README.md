@@ -4,6 +4,7 @@ Steps for Using MagAndroid
         a. Select BLE Fruit 52 device (note this step is for enabling CCCD). Now the blue light is constant on
         b. Click the “three dots” button “Enable CCCDs” (Note that this step only needs to be performed once if you successfully bond the matching devices.) 
         c. Bond the device
+        d. Turn off then turn ON the smartphone’s BLE on the control panel. Now the blue light should be blinking
     2. Switch to “MagAndroid”
         a. Click “CALIBRATION” button
             i. Click “START SCAN”. Keep trying until the blue light is constant
