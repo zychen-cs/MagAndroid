@@ -2,7 +2,7 @@ Steps for Using MagAndroid
 
     1. “nRF connect”
         a. Select BLE Fruit 52 device (note this step is for enabling CCCD). Now the blue light is constant on
-        b. Click the “three dots” button  “Enable CCCDs” (Note that this step only needs to be performed once if you successfully bond the matching devices.) 
+        b. Click the “three dots” button “Enable CCCDs” (Note that this step only needs to be performed once if you successfully bond the matching devices.) 
         c. Bond the device
     2. Switch to “MagAndroid”
         a. Click “CALIBRATION” button
