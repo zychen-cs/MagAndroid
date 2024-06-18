@@ -12,20 +12,20 @@ class StartActivity : AppCompatActivity() {
         val binding = ActivityStartBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.button1.setOnClickListener {
-            val intent = Intent(this, ConfigurationActivity::class.java)
-            startActivity(intent)
-        }
+//        binding.button1.setOnClickListener {
+//            val intent = Intent(this, ConfigurationActivity::class.java)
+//            startActivity(intent)
+//        }
 
         binding.button2.setOnClickListener {
             val intent = Intent(this, FindDeviceMainActivity::class.java)
             startActivity(intent)
         }
 
-        binding.button3.setOnClickListener {
-            val intent = Intent(this, RealTimeActivity::class.java)
-            startActivity(intent)
-        }
+//        binding.button3.setOnClickListener {
+//            val intent = Intent(this, RealTimeActivity::class.java)
+//            startActivity(intent)
+//        }
 
 
         binding.button4.setOnClickListener {
@@ -33,10 +33,10 @@ class StartActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        binding.button5.setOnClickListener {
-            val intent = Intent(this, TrackingActivity::class.java)
-            startActivity(intent)
-        }
+//        binding.button5.setOnClickListener {
+//            val intent = Intent(this, TrackingActivity::class.java)
+//            startActivity(intent)
+//        }
 //        external fun solve_1mag(
 //            readings1: DoubleArray?,
 //            PSensor1: DoubleArray?,

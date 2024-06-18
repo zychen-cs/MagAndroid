@@ -54,21 +54,9 @@
 //    return env->NewStringUTF(summary.BriefReport().c_str());
 //}
 
-
-
-
-
-
-
-
-
-//
-// Created by lum on 20-8-8.
-//
-
 #include <jni.h>
 #include <string>
-//#include "ceres.h"//导入需要的.h文件，这个是必须的，如果依赖的第三方库没有.h，需要自己编写
+//#include "ceres.h"
 #include "ceres.h"
 //#include <gflags/gflags.h>
 #include <glog/logging.h>
@@ -540,7 +528,7 @@ Java_com_example_magandorid_CalibrationActivity_00024Companion_solve_11mag(JNIEn
 
 
     Solver::Options options;
-    options.max_num_iterations = 1e7;
+    options.max_num_iterations = 1e5;
     options.minimizer_type = ceres::TRUST_REGION;
     options.trust_region_strategy_type = ceres::LEVENBERG_MARQUARDT;
     options.minimizer_progress_to_stdout = false;

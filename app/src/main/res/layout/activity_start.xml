@@ -5,38 +5,48 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Configuration"
-       />
+<!--    <Button-->
+<!--        android:id="@+id/button1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Configuration"-->
+<!--       />-->
 
-    <Button
+<!--    <Button-->
+<!--        android:id="@+id/button5"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Tracking" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button3"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Real-time Reading"-->
+<!--        />-->
+    <android.widget.Button
         android:id="@+id/button2"
+
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:text="Calibration"
+        android:textSize="20sp"
+        android:background="#9C27B0"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
         />
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Real-time Reading"
-        />
-
-    <Button
+    <android.widget.Button
         android:id="@+id/button4"
+        android:textSize="20sp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
+        android:background="#9C27B0"
         android:text="Real-time tracking"
+
+
         />
 
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Tracking" />
+
 
 </LinearLayout>

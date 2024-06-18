@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SimpleBleScanner</string>
+    <string name="app_name">MagAndroid</string>
     <string name="btn_start_scan_text">Start Scan</string>
     <string name="btn_start_calibration_text">Start Calibration</string>
     <string name="tw_calibration_results_title">Calibration Results</string>

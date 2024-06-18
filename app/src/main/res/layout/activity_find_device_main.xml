@@ -15,7 +15,20 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.844" />
+        app:layout_constraintVertical_bias="0.824" />
+    <Button
+        android:id="@+id/btn_start_calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calibration Results"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.924" />
+
+
     <ProgressBar
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyleHorizontal"
@@ -48,11 +61,62 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/lbl_cali_results"
+        android:layout_width="200dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="270dp"
+        android:clickable="false"
+        android:gravity="center"
+        android:text="Calibration Results"
 
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/calibration_illustration"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="550dp"
+        android:clickable="false"
+        android:gravity="center"
+        android:text="Calibration coefficients should ensure there are no NaN values. Coefficients typically range between 20 and 40, and the difference between any three consecutive coefficients in a row should ideally not exceed 5."
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/calibration_finish"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="750dp"
+        android:clickable="false"
+        android:gravity="center"
+        android:text="After the calibration is completed, the Bluetooth of the mobile phone should be disconnected as soon as possible."
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:background="#DDD"
+        android:id="@+id/resultsTextView"
+        android:layout_marginTop="300dp"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:textSize="16sp"
+        android:padding="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
     <androidx.recyclerview.widget.RecyclerView
+        android:background="#DDD"
         android:id="@+id/rv_found_devices"
-        android:layout_width="375dp"
-        android:layout_height="516dp"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
         app:layout_constraintBottom_toTopOf="@+id/btn_start_scan"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.444"
